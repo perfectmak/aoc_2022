@@ -1,17 +1,16 @@
-package main;
+package main
 
 import (
 	"fmt"
 
-	"github.com/perfectmak/aoc_2022/day1"
+	"github.com/perfectmak/aoc_2022/day3"
 )
 
-
 func main() {
-	result, err := day1.Solve()
+	result, err := day3.Solve()
 	if err != nil {
 		panic(err)
 	}
 
-	fmt.Printf("%d\n", result);
+	fmt.Printf("%d\n", result)
 }
