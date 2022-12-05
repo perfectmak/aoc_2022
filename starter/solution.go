@@ -10,8 +10,8 @@ func Solve() (uint64, error) {
 }
 
 func Solve1() (uint64, error) {
-	//inputFile, err := os.Open("day4/sample.txt")
-	inputFile, err := os.Open("day4/input.txt")
+	inputFile, err := os.Open("day4/sample.txt")
+	//inputFile, err := os.Open("day4/input.txt")
 	defer inputFile.Close()
 	if err != nil {
 		return 0, err
@@ -34,8 +34,8 @@ func Solve1() (uint64, error) {
 }
 
 func Solve2() (uint64, error) {
-	//inputFile, err := os.Open("day4/sample.txt")
-	inputFile, err := os.Open("day4/input.txt")
+	inputFile, err := os.Open("day4/sample.txt")
+	//inputFile, err := os.Open("day4/input.txt")
 	defer inputFile.Close()
 	if err != nil {
 		return 0, err
