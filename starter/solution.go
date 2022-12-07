@@ -18,9 +18,6 @@ func Solve1() (uint64, error) {
 	}
 
 	inputReader := bufio.NewScanner(inputFile)
-	if err != nil {
-		return 0, err
-	}
 
 	totalScore := uint64(0)
 	for inputReader.Scan() {
@@ -42,9 +39,6 @@ func Solve2() (uint64, error) {
 	}
 
 	inputReader := bufio.NewScanner(inputFile)
-	if err != nil {
-		return 0, err
-	}
 
 	totalScore := uint64(0)
 	for inputReader.Scan() {
