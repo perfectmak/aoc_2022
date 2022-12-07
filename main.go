@@ -3,11 +3,11 @@ package main
 import (
 	"fmt"
 
-	"github.com/perfectmak/aoc_2022/day6"
+	"github.com/perfectmak/aoc_2022/day7"
 )
 
 func main() {
-	result, err := day6.Solve()
+	result, err := day7.Solve()
 	if err != nil {
 		panic(err)
 	}
